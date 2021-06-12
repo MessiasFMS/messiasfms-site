@@ -23,7 +23,7 @@ body {
 }
 
 .navigation-bar li {
-    right: 0;
+    float: right;
 }
 
 .navigation-bar li a {
