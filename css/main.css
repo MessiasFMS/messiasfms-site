@@ -23,7 +23,7 @@ ul {
 }
 
 li {
-    float: right;
+    right: 0;
 }
 
 li a {
