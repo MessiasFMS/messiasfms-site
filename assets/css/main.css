@@ -25,7 +25,8 @@ body {
 }
 
 .navigation-bar li {
-    float: right;
+        float: right;
+        margin-right: 25%;
 }
 
 .navigation-bar li a {
@@ -34,7 +35,6 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    margin-right: 25%;
 }
 
 .navigation-bar li a:hover:not(.active) {
