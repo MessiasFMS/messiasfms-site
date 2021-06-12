@@ -30,7 +30,7 @@ body {
 }
 
 .navigation-bar li a {
-    display: block;
+    display: inline-block;
     color: rgb(66 107 190);
     text-align: center;
     padding: 14px 16px;
