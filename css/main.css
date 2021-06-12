@@ -10,18 +10,18 @@
     top: 0;
 }
 
-.navigation ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-.navigation li {
+li {
     float: right;
 }
 
-.navigation li a {
+li a {
     display: block;
     color: rgb(0,0,0);
     text-align: center;
@@ -29,10 +29,10 @@
     text-decoration: none;
 }
 
-.navigation li a:hover:not(.active) {
+li a:hover:not(.active) {
     color: rgb(43 63 222);
 }
 
-.navigation li a.active {
+li a.active {
     color: rgb(43 63 222);
 }
