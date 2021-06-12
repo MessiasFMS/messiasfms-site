@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\css"
+    "\\assets",
+    "\\assets\\img"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\assets\\img\\MeçiLogo-png.png",
   "PreviewInSolutionExplorer": false
 }

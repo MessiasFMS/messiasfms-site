@@ -9,24 +9,24 @@ body {
     font-family: 'Manrope', sans-serif;
 }
 
-.navigation {
-    width: 100px;
+.navigation-bar {
+    width: 100%;
     height: 10px;
     top: 0;
 }
 
-ul {
+.navigation-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+.navigation-bar li {
     float: right;
 }
 
-li a {
+.navigation-bar li a {
     display: block;
     color: rgb(66 107 190);
     text-align: center;
@@ -34,10 +34,10 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+.navigation-bar li a:hover:not(.active) {
     color: rgb(43 63 222);
 }
 
-li a .active {
-    color: rgb(43 63 222);
+.navigation-bar li a .active {
+    color: rgb(255 0 0);
 }
