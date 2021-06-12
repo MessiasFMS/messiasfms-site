@@ -38,6 +38,6 @@ li a:hover:not(.active) {
     color: rgb(43 63 222);
 }
 
-li a.active {
+li a .active {
     color: rgb(43 63 222);
 }
