@@ -17,33 +17,26 @@ body {
 
 .navigation-bar ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    overflow: hidden; 
+    margin-right: 25%;
+    margin-left: 25%;
 }
 
 .navigation-bar li {
-        float: right;
+    float: right;
+   
 }
 
-.navigation-bar li a {
-    display: inline;
-    color: rgb(66 107 190);
-    text-align: center;
-    padding: 14px 16px;
+.navigation-bar a {
+    display: inline-flex;
+    padding: 16px 14px;
+    font-weight: 800;
+    color: rgb(59, 50, 254);
     text-decoration: none;
 }
 
-.navigation-bar li a:hover:not(.active) {
-    color: rgb(43 63 222);
-}
-
-.navigation-bar li a .active {
-    color: rgb(255 0 0);
-}
-
 .navigation-bar img {
-    width: 64px;
-    height: 64px;
-    position: relative;
+    margin-top: -10px;
+    width: 48px;
+    height: 48px;
 }
