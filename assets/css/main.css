@@ -45,5 +45,5 @@ body {
 .navigation-bar img {
     width: 64px;
     height: 64px;
-    position: absolute;
+    position: relative;
 }
