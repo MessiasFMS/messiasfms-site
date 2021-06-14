@@ -15,6 +15,8 @@ body {
     top: 0;
 }
 
+
+
 .navigation-bar ul {
     list-style-type: none;
     overflow: hidden; 
@@ -26,6 +28,10 @@ body {
 .navigation-bar li {
     float: right;
    
+}
+
+.navigation-bar .icon {
+    display: none;
 }
 
 .navigation-bar a {
@@ -42,7 +48,7 @@ body {
 
 }
 
-.navigation-bar img {
+.navigation-bar .logo {
     margin-top: -10px;
     width: 48px;
     height: 48px;
@@ -88,4 +94,13 @@ body {
         margin-right: 5%;
         text-align: justify;
     }
+    .navigation-bar li a:not(.logo){
+        display: none;
+    }
+    .navigation-bar .icon {
+        display: initial;
+       float: right;
+        
+    }
+   
 }
