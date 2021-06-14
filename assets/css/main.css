@@ -18,6 +18,7 @@ body {
     align-items: center;
     justify-content: space-between;
     height: 70px;
+    margin-top: 10px;
 }
 
 .menu {
@@ -91,12 +92,25 @@ body {
         margin-right: 5%;
         text-align: justify;
     }
-    .nav:not(.icon) {
+
+    .c-header {
+        max-width: 350px;
+        justify-content: space-between;
+        
+    }
+
+    .nav {
         display: none;
     }
 
+    .logo {
+        width: 64px;
+        height: 64px;
+    }
+
     .icon {
-        background-color: red;
+        display: block;
+        font-size: 32px;
     }
    
 }
