@@ -100,8 +100,16 @@ body {
     }
 
     .nav {
-        display: none;
+        display: block;
+        width: 100%;
+        right: 0;
+        position: absolute;
+        top: 75px;
+        height: 0px;
+        background: rgb(206, 22, 63);
+        z-index: 1000;
     }
+
 
     .logo {
         width: 64px;
@@ -112,5 +120,8 @@ body {
         display: block;
         font-size: 32px;
     }
-   
+
+    .icon:hover {
+        color: rgb(206, 22, 63);
+    }
 }
