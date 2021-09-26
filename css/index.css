@@ -151,6 +151,34 @@
         max-width: 300px;
     }
 
+    .mid-items > p {
+        margin-right: 10vw;
+    }
+
+    .social-media {
+        margin-left: 5vw;
+    }
+    .social-media img {
+        max-width: 30px;
+    }
+}
+
+
+@media screen and (max-width: 347px) {
+    .right {
+        align-items: center;
+    }
+    .right-img {
+        max-width: 200px;
+    }
+
+    .mid-items {
+        margin-left: 10vw;
+    }
+    .mid-items > h1 {
+        font-size: 1.625rem;
+    }
+
 
     .social-media {
         margin-left: 5vw;
