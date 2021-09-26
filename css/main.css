@@ -88,7 +88,7 @@ body {
     }
 }
 
-@media screen and (max-width: 930px) and (max-height: 1024px) {
+@media screen and (max-width: 930px), (max-height: 1024px) {
     
     .burger-nav {
         display: inline-flex;
