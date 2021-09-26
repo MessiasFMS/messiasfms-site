@@ -11,7 +11,7 @@
     flex: 1;
     flex-grow: 1;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .right-img {
@@ -84,9 +84,6 @@
 
 @media screen and (max-width: 1366px), (max-height: 768px) {
 
-    .right {
-        justify-content: flex-start;
-    }
     .right-img {
         max-width: 500px;
     }
@@ -125,7 +122,6 @@
 
     .right {
         order: 1;
-        justify-content: center;
 
     }
 
@@ -158,5 +154,8 @@
 
     .social-media {
         margin-left: 5vw;
+    }
+    .social-media img {
+        max-width: 30px;
     }
 }
