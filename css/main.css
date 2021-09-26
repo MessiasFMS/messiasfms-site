@@ -47,6 +47,10 @@ body {
     padding: 16px 29px;
 }
 
+.burger-nav {
+    display: none;
+}
+
 .logo {
     margin-left: 10vw;
 }
@@ -65,17 +69,8 @@ body {
     cursor: pointer;
   }
 
-  .in-development {
-    display: none;
-    text-align: center;
-    background: var(--light-red);
-    width: 100vw;
-    height: 100vw;
-    color: var(--white);
-  }
 
-
-@media only screen and (max-width: 1366px) and (max-height: 768px) {
+@media only screen and (max-width: 1366px), (max-height: 768px) {
 
     .menu {
         margin-right: 5vw;
@@ -94,18 +89,25 @@ body {
     }
 }
 
-@media only screen and (max-width: 1024px) and (max-height: 768px) {
+@media only screen and (max-width: 1024px), (max-height: 768px) {
     
-    .in-development {
-        display: block;
+    .burger-nav {
+        display: inline-flex;
     }
-
-    body *:not(.in-development, .in-development h1, .in-development h3, .in-development p) {
+    
+    .menu-items {
         display: none;
     }
     
+    .button {
+        width: 25vw;
+    }
+}
 
-    
+@media only screen and (max-width: 550px) {
+    .button {
+        width: 50vw;
+    }
 }
 
 
