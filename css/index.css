@@ -82,7 +82,7 @@
     font-size:  1.3rem;
 }
 
-@media screen and (max-width: 1366px), (max-height: 768px) {
+@media screen and (max-width: 1366px) and (max-height: 768px) {
 
     .right-img {
         max-width: 500px;
@@ -115,7 +115,7 @@
     }
 }
 
-@media screen and (max-width: 930px), (max-height: 1024px) {
+@media screen and (max-width: 930px) and (max-height: 1024px) {
 
     .container {
         flex-flow: row wrap;
