@@ -21,6 +21,11 @@ body {
     font-size: 16px;
     font-family: 'Inter', sans-serif;
     background: var(--bg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -49,7 +54,7 @@ body {
 
 .content {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(200px, 1fr)); 
     justify-content: center;
     gap: 20px;
     max-width: 800px;
@@ -81,15 +86,12 @@ h3 {
     font-size: 1.25rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .content {
-        display: flex;
-        flex-direction: column;
+        grid-template-columns: minmax(200px, 1fr); 
     }
 
-    .box {
-        flex-basis: 100%;
-    }
+    
     .title {
         font-size: 2rem;
     }
